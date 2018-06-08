@@ -28,6 +28,9 @@ pdf绝对地址：{{"/pdfs/paper.pdf" | absolute_url}}
 
 [pdf命令地址]({{"/pdfs/paper.pdf" | absolute_url}})
 
+[_pdf命令地址]({{"/_pdfs/paper.pdf" | absolute_url}})
+
+
 [pdf仓库地址](https://github.com/yang-jq/yang-jq.github.io/tree/master/pdfs/paper.pdf)
 
 
