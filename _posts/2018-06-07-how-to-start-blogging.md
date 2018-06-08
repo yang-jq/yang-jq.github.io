@@ -18,11 +18,17 @@ Github Pages是托管在Github上的静态网页，而Jekyll则是将Markdown、
 
 ![jpg absolute](http://ww1.sinaimg.cn/large/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg)
 
-pdf绝对地址：{{"/_pdf/paper.pdf" | absolute_url}}
+jpg图片链接：{{"/blog_images/NexT_preview.jpg" | absolute_url}}
 
-[pdf下载地址]({{"/_pdf/paper.pdf" | absolute_url}})
+![jpg图片]({{"/blog_images/NexT_preview.jpg" | absolute_url}})
 
-[pdf下载地址2](https://github.com/yang-jq/yang-jq.github.io/tree/master/_pdf/paper.pdf)
+![jpg仓库地址](https://github.com/yang-jq/yang-jq.github.io/tree/master/blog_images/NexT_preview.jpg)
+
+pdf绝对地址：{{"/pdfs/paper.pdf" | absolute_url}}
+
+[pdf命令地址]({{"/pdfs/paper.pdf" | absolute_url}})
+
+[pdf仓库地址](https://github.com/yang-jq/yang-jq.github.io/tree/master/pdfs/paper.pdf)
 
 
 
