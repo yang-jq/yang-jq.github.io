@@ -1,16 +1,29 @@
 ---
-title: "创建你的博客——基于Github Pages和Jekyll"
+title: "10分钟构建博客"
 layout: post
 excerpt_separator: <!--more-->
-category: [博客, blog, Github Pages, Jekyll]
-tag: [博客, blog, Github Pages, Jekyll]
+category: [Github Pages, Jekyll]
+tag: [Github Pages, Jekyll]
 published: true
 permalink: /how-to-start-blogging.html
 ---
 
-### 从Fork开始
-Github Pages是托管在Github上的静态网页，而Jekyll则是将Markdown、Textile等轻量化标记语言编写的文本转换为静态网页的工具。两者结合可以便捷地创建个人博客或项目主页。是时候为自己创建个人博客了！
+
+[Jekyll](https://jekyllrb.com/)([中文网](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，也有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
+
+### 从模板开始
+从零开始亲手创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
+
+|模板名称|模板预览|
+|:---:|:---:|
+|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([官网](http://theme-next.simpleyyt.com/))|<img src={{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}} width="48">|
+|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)|-|
+|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|-|
+|[官方模板](https://pages.github.com/themes/)|-|
+
+[NexT preview]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})
+
 
 - **Step 1**：在[Github](https://github.com/)上注册账号。
 - **Step 2**：挑选博客模板(又称为Theme或Template)：在[Jekyllthemes.org](http://jekyllthemes.org/)或[Jekyll-themes.com](https://jekyll-themes.com/)上选择一个你喜爱的模板；进入它的Github页面，然后将它Fork到你的Github上。这里有几个不错的Theme。下面以NexT主题为例进行讲解，Fork NexT主题后，它在仓库中的名称为`userid/jekyll-theme-next`，`userid`表示你的Github用户名)
@@ -35,15 +48,7 @@ pdf绝对地址：{{"/pdfs/paper.pdf" | absolute_url}}
 
 
 
-|模板名称|模板预览|
-|:---:|:---:|
-|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([官网](http://theme-next.simpleyyt.com/))||
-|[Cards](https://github.com/sharu725/cards)|-|
-|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)|-|
-|[Phantom](https://github.com/andrewbanchich/phantom-jekyll-theme)|-|
-|[Karna](https://github.com/sharu725/karna)|-|
-|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|-|
-|[官方模板](https://pages.github.com/themes/)|-|
+
 
 - **Step 3**：创建你的博客：进入自己的Github页面，点击右上角的`+` &rarr; `Import Repository` &rarr; 在`Your old repository's clone URL`填入Theme仓库URL：`https://github.com/userid/jekyll-theme-next` &rarr; 在`Your new repository details`的Name处填入`userid.github.io`。
 - **Step 4**：你的个人博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧！示例：[我的个人博客](https://yang-jq.github.io/)。
