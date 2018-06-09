@@ -1,5 +1,5 @@
 ---
-title: "10分钟构建博客——基于Jekyll和Github Pages"
+title: 10分钟构建博客——基于Jekyll和Github Pages
 layout: post
 excerpt_separator: <!--more-->
 category: [Github Pages, Jekyll]
@@ -59,7 +59,22 @@ permalink: /how-to-start-blogging.html
 
 
 ### 推送博文
-- *Step 1*：文件夹`_posts`为已经发布的博客，可以删除已有博客文档，并新建自己的博客文档。新建文档需要以`年-月-日-标题.后缀`命名，例如：`2018-06-07-How-to-write-blog.md`。
+定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`博文自动转换成`.html`格式进行发布。Markdown是轻量化的标记语言，为了撰写时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
+
+- **Step 1**：安装[Atom](https://atom.io/)编辑器，关闭Markdown-preview插件(无法显示数学公式)后，安装Markdown-preview-plus增强插件：
+  - `File` &rarr; `Settings` &rarr; `Packages` &rarr; `markdown-preview` &rarr; `Disable`;
+  - `File` &rarr; `Settings` &rarr; `Install` &rarr; `markdown-preview-plus`;
+- **Step 2**：在博客仓库的`_posts`下新建`year-month-day-title.md`文档，在`.md`文档中写入内容，然后通过Github Desktop推送到线上的博客仓库，即完成博文的发布。
+
+需要说明的是，Jekyll在将每个`.md`文档开头两行`---`直接的信息看作是`YML`头信息，根据头信息中的选项进行相应处理，常用的选项有：
+|选项|作用|示例|
+|:---:|:---:|:---:|
+|`title`|博文标题|`title: 第一篇博客`|
+
+
+
+
+文件夹`_posts`为已经发布的博客，可以删除已有博客文档，并新建自己的博客文档。新建文档需要以`年-月-日-标题.后缀`命名，例如：`2018-06-07-How-to-write-blog.md`。
 
 ```
 ---
