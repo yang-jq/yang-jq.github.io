@@ -1,5 +1,5 @@
 ---
-title: "10分钟构建博客"
+title: "10分钟构建博客——基于Jekyll和Github Pages"
 layout: post
 excerpt_separator: <!--more-->
 category: [Github Pages, Jekyll]
@@ -40,9 +40,16 @@ permalink: /how-to-start-blogging.html
 |`language`|语言|`en`/`zh-Hans`/'ja'等10种语言|`language: zh-Hans`|
 |`menu`|菜单|参考[NexT主页-快速开始](http://theme-next.simpleyyt.com/getting-started.html)|可自定义菜单|
 |`title`|博客名称|字符串|`title: my blog`|
+|`avatar`|头像|图片链接|`avatar: /image/avatar.png`|
 |`rss`|RSS订阅|`false`/留空/具体地址|`rss: false`，即不启用|
-|`social`|侧边栏社交链接|参考[NexT主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)，[Font Awesome图标名](http://fontawesome.dashgame.com/)| `GitHub: https://github.com/userid`|
+|`social`|侧边栏社交链接|参考[NexT主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)，[Font Awesome图标](http://fontawesome.dashgame.com/)| `GitHub: https://github.com/userid`|
 |`highlight_theme`|代码高亮样式|`normal`/`night`/`night eighties`/`night blue`/`night bright`|`highlight_theme: normal`|
+|`baidu_analytics`|添加百度统计功能后，可自行登陆查看个人博客的访问情况|参考NexT主页|`baidu_analytics: baidu_id`|
+|`use_motion`|动画效果|`true`(默认)/`false`|`use_motion: false`|
+|`busuanzi_count`|访问统计|`true`/`false`，参考[NexT主页-第三方服务](http://theme-next.simpleyyt.com/third-party-services.html)|`enable: true`|
+
+
+
 
 
 
