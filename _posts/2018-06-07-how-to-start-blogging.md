@@ -9,7 +9,7 @@ permalink: /how-to-start-blogging.html
 ---
 
 
-[Jekyll](https://jekyllrb.com/)([中文](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
+[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
 
 ### 从模板开始
@@ -36,9 +36,12 @@ permalink: /how-to-start-blogging.html
 
 |常用配置项|功能说明|可选值|示例|
 |:---:|:---:|:---:|:---:|
+|`scheme`|版面外观|`Muse`(默认)/`Mist`/`Pisces`|`scheme: Pisces`|
+|`language`|语言|`en`/`zh-Hans`/'ja'等10种语言|`language: zh-Hans`|
+|`menu`|菜单|参考[NexT主页-快速开始](http://theme-next.simpleyyt.com/getting-started.html)|可自定义菜单|
 |`title`|博客名称|字符串|`title: my blog`|
 |`rss`|RSS订阅|`false`/留空/具体地址|`rss: false`，即不启用|
-|`social`|侧边栏社交链接|参见[主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)|参见[主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)|
+|`social`|侧边栏社交链接|参考[NexT主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)，[Font Awesome图标名](http://fontawesome.dashgame.com/)| `GitHub: https://github.com/userid`|
 |`highlight_theme`|代码高亮样式|`normal`/`night`/`night eighties`/`night blue`/`night bright`|`highlight_theme: normal`|
 
 
