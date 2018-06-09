@@ -423,7 +423,7 @@ gitalk:
 ##  type: button
 
 # Share
-# jiathis: true
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -507,11 +507,11 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: false
-  site_uv_header: 访客数：
+  site_uv_header: 本站访客数：
   site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: 总访问量：
+  site_pv_header: 本站总访问量：
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
