@@ -95,17 +95,17 @@ premalink: /start-blogging.html
 ### 避坑指南(陆续更新...)
 #### 插入图片
 假设图片的路径在`本地博客仓库/images/pic1.png`，用以下命令可将图片插入到文章中：
-```python
-![图1]({{"/images/pic1.png" | absolute_url}})
+```
+![图1]({% raw %} {{"/images/pic1.png" | absolute_url}} {% endraw %})
 ```
 需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别。
 #### 插入附件
 假设需要向文章中插入`.pdf`文件，可用跟插入图片类似的方法：
-```python
-[点此下载]({{"/pdfs/paper.pdf" | absolute_url}})
+```
+[点此下载]({% raw %} {{"/pdfs/paper.pdf" | absolute_url}} {% raw %})
 ```
 #### 引用文章
 假设需要从一篇文章`/article1.md`中链接到另一篇文章`/article2.md`，首先在`/article2.md`的`YML`头信息中设置永久链接：`premalink: /article2.html`，那么可通过以下命令实现引用：
-```python
-[我的简历]({{"/article2.html" | absolute_url}})
+```
+[我的简历]({% raw %} {{"/article2.html" | absolute_url}} {% raw %})
 ```
