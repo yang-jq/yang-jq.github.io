@@ -9,7 +9,7 @@ permalink: /how-to-start-blogging.html
 ---
 
 
-[Jekyll](https://jekyllrb.com/)([中文网](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，也有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
+[Jekyll](https://jekyllrb.com/)([中文](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
 
 ### 从模板开始
@@ -23,6 +23,11 @@ permalink: /how-to-start-blogging.html
 |[官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}})|
 |[Jekyllthemes.org](http://jekyllthemes.org/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyllthemes_org.png" | absolute_url}})|
 |[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyll-themes_com.png" | absolute_url}})|
+
+下面以NexT模板搭建博客。
+- **Step 1**: 注册[Github](https://github.com/)账号，记Github用户名为`userid`。
+- **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
+- **Step 3**：你的博客已上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
 
 ![NexT preview]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})
 
