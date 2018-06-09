@@ -12,7 +12,7 @@ permalink: /how-to-start-blogging.html
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
 
-### 从模板开始
+### 挑选模板
 从零开始亲手创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
 
 |模板名称|模板预览|
@@ -55,27 +55,10 @@ permalink: /how-to-start-blogging.html
 |`mathjax`|数学公式|`true`/`false`|`enable: true`|
 |`version`|版本，在文档最后一行|字符串|NexT的版本号|
 
-- **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库：`commit to `
+- **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库，配置才能生效：`Commit to master` &rarr; `Push origin`。
 
 
-### 版面定制
-
-$$x_1 = \frac{1}{2}$$
-
-
-虽然你已经可以通过个人Github链接访问刚创建的博客，但版式还保留原样，还需要进一步对版式进行调整。这需要用到Github Desktop。
-
-- **Step 1**：下载[Github Desktop](https://desktop.github.com/)，安装并通过Github账号登陆。
-- **Step 2**：浏览器登陆Github，在个人博客仓库(`usedid/userid.github.io`)-->`Clone or download`，将博客仓库下载到本地。
-- **Step 3**：打开本地仓库(默认路径为`/Documents/GitHub/userid.github.io`)，用文本编辑软件（如Notepad++）打开`_config.yml`，对当中的[全局配置项](http://theme-next.simpleyyt.com/theme-settings.html)进行设定：
-
-|配置项|作用|可选值|示例|
-|:----:|:---:|:---:|:---:|
-|title|博客名称|任意字符串|`title: "my blog"`|
-|rss|RSS订阅功能|`false`/留空/具体地址|`rss: false`|
-
-
-### 新增博文
+### 推送博文
 - *Step 1*：文件夹`_posts`为已经发布的博客，可以删除已有博客文档，并新建自己的博客文档。新建文档需要以`年-月-日-标题.后缀`命名，例如：`2018-06-07-How-to-write-blog.md`。
 
 ```
