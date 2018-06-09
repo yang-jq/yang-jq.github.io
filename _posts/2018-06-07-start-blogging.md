@@ -1,11 +1,11 @@
 ---
-title: 10分钟构建博客——基于Jekyll和Github Pages
+title: 你的博客已上线——基于Jekyll和Github Pages
 layout: post
 excerpt_separator: <!--more-->
-category: [Github Pages, Jekyll]
-tag: [Github Pages, Jekyll]
+categories: [Github Pages, Jekyll]
+tags: [Github Pages, Jekyll]
 published: true
-permalink: /how-to-start-blogging.html
+permalink: /start-blogging.html
 ---
 
 
@@ -25,9 +25,9 @@ permalink: /how-to-start-blogging.html
 |[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyll-themes_com.png" | absolute_url}})|
 
 下面以NexT模板为例搭建博客。
-- **Step 1**: 注册[Github](https://github.com/)账号，记Github用户名为`userid`。
+- **Step 1**: 注册[Github](https://github.com/)账号，Github用户名记为`userid`。
 - **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
-- **Step 3**：你的博客已上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
+- **Step 3**：你的博客已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
 
 ### 定制版面
 你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的博客写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
@@ -58,41 +58,44 @@ permalink: /how-to-start-blogging.html
 - **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库，配置才能生效：`Commit to master` &rarr; `Push origin`。
 
 
-### 推送博文
+### 开始创作
 定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`博文自动转换成`.html`格式进行发布。Markdown是轻量化的标记语言，为了撰写时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
 
 - **Step 1**：安装[Atom](https://atom.io/)编辑器，关闭Markdown-preview插件(无法显示数学公式)后，安装Markdown-preview-plus增强插件：
-  - `File` &rarr; `Settings` &rarr; `Packages` &rarr; `markdown-preview` &rarr; `Disable`;
-  - `File` &rarr; `Settings` &rarr; `Install` &rarr; `markdown-preview-plus`;
+  - `File` &rarr; `Settings` &rarr; `Packages` &rarr; `markdown-preview` &rarr; `Disable`；
+  - `File` &rarr; `Settings` &rarr; `Install` &rarr; `markdown-preview-plus`。
 - **Step 2**：在博客仓库的`_posts`下新建`year-month-day-title.md`文档，在`.md`文档中写入内容，然后通过Github Desktop推送到线上的博客仓库，即完成博文的发布。
 
-需要说明的是，Jekyll在将每个`.md`文档开头两行`---`直接的信息看作是`YML`头信息，根据头信息中的选项进行相应处理，常用的选项有：
+需要说明的是，Jekyll会将每个`.md`文档开头两行`---`之间的信息看作是`YML`头信息，然后根据头信息中的选项进行相应处理，常用的选项有：
 |选项|作用|示例|
 |:---:|:---:|:---:|
 |`title`|博文标题|`title: 第一篇博客`|
+|`layout`|布局|`layout: post`, 其它选项可参考`_layouts`中的文件名|
+|`excerpt_separator`|摘要截取符，在截取符之前的文字将作为文章的摘要|`excerpt_separator: <!--more-->`|
+|`categories`|为文章分类|`categories： [Jekyll, Github]`|
+|`tags`|为文章加标签|`tags: [Jekyll, Github]`，类似于`category`的功能|
+|`published`|是否发布|`published: true`|
+|`premalink`|永久链接，用于从别的页面对当前页面进行引用|`premalink: /start-blogging.html`|
+|`comments`|开启或关闭评论功能|`comments: false`|
 
-
-
-
-文件夹`_posts`为已经发布的博客，可以删除已有博客文档，并新建自己的博客文档。新建文档需要以`年-月-日-标题.后缀`命名，例如：`2018-06-07-How-to-write-blog.md`。
-
+例如，在本地博客仓库的`_posts`文件夹内新建一个`2018-06-07-start-blogging.md`的文件，然后写入
 ```
 ---
-# 两个---之间的区域会被Jekyll当作YAML头信息进行处理，用于设置版面样式或设定某些变量，可以用#进行注释
-title: "How to write blog"
-layout: post # 可选值为：archive, category, index, layout, page, post, tag, 参见_layouts文件夹
-date: 2018-06-09 20:40:00  # 缺省情况下，使用文档名中指定的日期
-category: [Github, Jekyll]  # 也可以用categories: [xx, yy]
-published: true  # 控制是否显示，缺省情况下为true，可设置为false
-tags: [Github, Jekyll]
-excerpt: "It is time to start your journal of blogging"  # 该篇文章的摘要
-# excerpt_separator: <!--more-->  # 出现在excerpe_separator之前的文字作为摘要
+title: 开始你的博客之旅
+layout: post
+tags: [Blog, Jekyll]
+published: true
+excerpt_separator: <!--more-->
+premalink: /start-blogging.html
 ---
-以下是博客内容...
+文章正文：
+一切从这里开始...
 ```
-```python
-import numpy as np
-from matplotlib import pyplot as plt
-def f(a, b):
-    return a + b
-```
+
+### 避坑指南(陆续更新...)
+- 插入图片
+假设图片的路径在`本地博客仓库/images/pic1.png`，用以下命令可将图片插入到文章中：`![图1]({{"/images/pic1.png" | absolute_url}})`。需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别。
+- 插入附件
+假设需要向文章中插入`.pdf`文件，可用跟插入图片类似的方法：`[点此下载]({{"/pdfs/paper.pdf" | absolute_url}})`，注意事项同上。
+- 在一篇文章内引用另一篇文章
+假设需要从一篇文章`/article1.md`中链接到另一篇文章`/article2.md`，首先在`/article2.md`的`YML`头信息中设置永久链接：`premalink: /article2.html`，那么可通过以下命令实现引用：`[我的简历]({{"/article2.html" | absolute_url}})`。
