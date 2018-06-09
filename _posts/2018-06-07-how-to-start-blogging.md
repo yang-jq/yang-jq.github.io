@@ -52,13 +52,15 @@ permalink: /how-to-start-blogging.html
 |`post_meta`|显示创建、更新、分类信息(尚未完善)|`true`/`false`|`created_at: true`|
 |`post_wordcount`|显示字数、阅读时间(尚未完善)|`true`/`false`|`wordcount: true`|
 |`custom_logo`|logo图案|`true`/`false`|`enable: true`，`image: /logo.png`|
+|`mathjax`|数学公式|`true`/`false`|`enable: true`|
 |`version`|版本，在文档最后一行|字符串|NexT的版本号|
 
+- **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库：`commit to `
 
 
 ### 版面定制
 
-$$x_1 = \frac(1)(2)$$
+$$x_1 = \frac{1}{2}$$
 
 
 虽然你已经可以通过个人Github链接访问刚创建的博客，但版式还保留原样，还需要进一步对版式进行调整。这需要用到Github Desktop。
