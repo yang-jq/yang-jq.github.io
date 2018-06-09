@@ -38,7 +38,9 @@ permalink: /how-to-start-blogging.html
 |:---:|:---:|:---:|:---:|
 |`title`|博客名称|字符串|`title: my blog`|
 |`rss`|RSS订阅|`false`/留空/具体地址|`rss: false`，即不启用|
+|`social`|侧边栏社交链接|参见[主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)|参见[主页-主题配置](http://theme-next.simpleyyt.com/theme-settings.html)|
 |`highlight_theme`|代码高亮样式|`normal`/`night`/`night eighties`/`night blue`/`night bright`|`highlight_theme: normal`|
+
 
 
 
