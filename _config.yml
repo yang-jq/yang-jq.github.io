@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: yang-jq's blog
+title: Yang's Blog
 subtitle:
 description:
-author: yang-jq
+author: Yang-jq
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -423,9 +423,9 @@ gitalk:
 ##  type: button
 
 # Share
-jiathis: true
+# jiathis: true
 # Warning: JiaThis does not support https.
-#add_this_id:
+add_this_id: ra-5b1ba45d509d9995
 
 # Share
 #duoshuo_share: true
