@@ -18,9 +18,9 @@ permalink: /how-to-start-blogging.html
 |模板名称|模板预览|
 |:---:|:---:|
 |[NexT](https://github.com/simpleyyt/jekyll-theme-next)([官网](http://theme-next.simpleyyt.com/))|[NexT预览]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})|
-|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)|{{"/blog_images/start-your-blogging/TeXt_preview.png" | absolute_url}}|
-|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|{{"/blog_images/start-your-blogging/Flexible_preview.png" | absolute_url}}|
-|[官方模板](https://pages.github.com/themes/)|{{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}}|
+|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)|[TeXt预览]({{"/blog_images/start-your-blogging/TeXt_preview.png" | absolute_url}})|
+|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|[]({{"/blog_images/start-your-blogging/Flexible_preview.png" | absolute_url}})|
+|[官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}})|
 |模板网站|[Jekyllthemes.org](http://jekyllthemes.org/)|
 |模板网站|[Jekyll-themes.com](https://jekyll-themes.com/)|
 
