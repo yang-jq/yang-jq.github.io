@@ -24,41 +24,30 @@ permalink: /how-to-start-blogging.html
 |[Jekyllthemes.org](http://jekyllthemes.org/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyllthemes_org.png" | absolute_url}})|
 |[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyll-themes_com.png" | absolute_url}})|
 
-下面以NexT模板搭建博客。
+下面以NexT模板为例搭建博客。
 - **Step 1**: 注册[Github](https://github.com/)账号，记Github用户名为`userid`。
 - **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
 - **Step 3**：你的博客已上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
 
-![NexT preview]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})
+### 定制版面
+你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的博客写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
+- **Step 1**：安装[Github Desktop](https://desktop.github.com/)，并通过Github账户登录，将博客仓库下载到本地。
+- **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明：
 
-
-- **Step 1**：在[Github](https://github.com/)上注册账号。
-- **Step 2**：挑选博客模板(又称为Theme或Template)：在[Jekyllthemes.org](http://jekyllthemes.org/)或[Jekyll-themes.com](https://jekyll-themes.com/)上选择一个你喜爱的模板；进入它的Github页面，然后将它Fork到你的Github上。这里有几个不错的Theme。下面以NexT主题为例进行讲解，Fork NexT主题后，它在仓库中的名称为`userid/jekyll-theme-next`，`userid`表示你的Github用户名)
-
-
-![jpg absolute](http://ww1.sinaimg.cn/large/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg)
-
-jpg图片链接：{{"/blog_images/NexT_preview.jpg" | absolute_url}}
-
-![jpg图片]({{"/blog_images/NexT_preview.jpg" | absolute_url}})
-
-![jpg仓库地址](https://github.com/yang-jq/yang-jq.github.io/tree/master/blog_images/NexT_preview.jpg)
-
-pdf绝对地址：{{"/pdfs/paper.pdf" | absolute_url}}
-
-[pdf命令地址]({{"/pdfs/paper.pdf" | absolute_url}})
-
-[_pdf命令地址]({{"/_pdfs/paper.pdf" | absolute_url}})
-
-
-[pdf仓库地址](https://github.com/yang-jq/yang-jq.github.io/tree/master/pdfs/paper.pdf)
+|常用配置项|功能说明|可选值|示例|
+|:---:|:---:|:---:|:---:|
+|`title`|博客名称|字符串|`title: my blog`|
+|`rss`|RSS订阅|`false`/留空/具体地址|`rss: false`，即不启用|
+|`highlight_theme`|代码高亮样式|`normal`/`night`/`night eighties`/`night blue`/`night bright`|`highlight_theme: normal`|
 
 
 
 
 
-- **Step 3**：创建你的博客：进入自己的Github页面，点击右上角的`+` &rarr; `Import Repository` &rarr; 在`Your old repository's clone URL`填入Theme仓库URL：`https://github.com/userid/jekyll-theme-next` &rarr; 在`Your new repository details`的Name处填入`userid.github.io`。
-- **Step 4**：你的个人博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧！示例：[我的个人博客](https://yang-jq.github.io/)。
+
+
+
+
 
 ### 版面定制
 虽然你已经可以通过个人Github链接访问刚创建的博客，但版式还保留原样，还需要进一步对版式进行调整。这需要用到Github Desktop。
