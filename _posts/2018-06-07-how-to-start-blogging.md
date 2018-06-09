@@ -49,11 +49,11 @@ permalink: /how-to-start-blogging.html
 |`busuanzi_count`|访问统计|`true`/`false`，参考[NexT主页-第三方服务](http://theme-next.simpleyyt.com/third-party-services.html)|`enable: true`|
 |`add_this_id`|[Addthis分享功能](http://theme-next.simpleyyt.com/third-party-services.html)|Addthis的用户id|`add_this_id: addthis_id`|
 |`local_search`|站内搜索|`true`/`false`|`enable: true`|
-|`post_meta`|显示创建、更新、分类信息|`true`/`false`|`created_at: true`|
-|`post_wordcount`|显示字数、阅读时间|`true`/`false`|`wordcount: true`|
+|`post_meta`|显示创建、更新、分类信息(尚未完善)|`true`/`false`|`created_at: true`|
+|`post_wordcount`|显示字数、阅读时间(尚未完善)|`true`/`false`|`wordcount: true`|
 
 
-
+$$x_1 = \frac(1)(2)$$
 
 
 
