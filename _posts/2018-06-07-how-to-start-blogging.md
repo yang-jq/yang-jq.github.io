@@ -17,10 +17,10 @@ permalink: /how-to-start-blogging.html
 
 |模板名称|模板预览|
 |:---:|:---:|
-|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([官网](http://theme-next.simpleyyt.com/))|[NexT预览]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})|
-|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)|[TeXt预览]({{"/blog_images/start-your-blogging/TeXt_preview.png" | absolute_url}})|
+|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([主页](http://theme-next.simpleyyt.com/))|[NexT预览]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})|
+|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)([主页](https://tianqi.name/jekyll-TeXt-theme/))|[TeXt预览]({{"/blog_images/start-your-blogging/TeXt_preview.png" | absolute_url}})|
 |[Flexible](https://github.com/artemsheludko/flexible-jekyll)|[Flexible预览]({{"/blog_images/start-your-blogging/Flexible_preview.png" | absolute_url}})|
-|[官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}})|
+|[Github官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}})|
 |[Jekyllthemes.org](http://jekyllthemes.org/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyllthemes_org.png" | absolute_url}})|
 |[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyll-themes_com.png" | absolute_url}})|
 
@@ -51,22 +51,16 @@ permalink: /how-to-start-blogging.html
 |`local_search`|站内搜索|`true`/`false`|`enable: true`|
 |`post_meta`|显示创建、更新、分类信息(尚未完善)|`true`/`false`|`created_at: true`|
 |`post_wordcount`|显示字数、阅读时间(尚未完善)|`true`/`false`|`wordcount: true`|
-
-
-$$x_1 = \frac(1)(2)$$
-
-
-
-
-
-
-
-
-
+|`custom_logo`|logo图案|`true`/`false`|`enable: true`，`image: /logo.png`|
+|`version`|版本，在文档最后一行|字符串|NexT的版本号|
 
 
 
 ### 版面定制
+
+$$x_1 = \frac(1)(2)$$
+
+
 虽然你已经可以通过个人Github链接访问刚创建的博客，但版式还保留原样，还需要进一步对版式进行调整。这需要用到Github Desktop。
 
 - **Step 1**：下载[Github Desktop](https://desktop.github.com/)，安装并通过Github账号登陆。
