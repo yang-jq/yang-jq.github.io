@@ -26,7 +26,7 @@ permalink: /start-blogging.html
 下面以NexT模板为例搭建博客。
 - **Step 1**：注册[Github](https://github.com/)账号，Github用户名记为`userid`。
 - **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
-- **Step 3**：你的博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[本人博博客]](https://yang-jq.github.io/)。
+- **Step 3**：你的博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[本人博客]](https://yang-jq.github.io/)。
 
 ### 定制版面
 你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
