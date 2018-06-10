@@ -8,7 +8,7 @@ published: true
 permalink: /start-blogging.html
 ---
 
-[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
+[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。生成工具与托管服务两者的结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
 
 ### 挑选模板
@@ -29,7 +29,7 @@ permalink: /start-blogging.html
 - **Step 3**：你的博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[本人博客]](https://yang-jq.github.io/)。
 
 ### 定制版面
-你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
+你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成文稿后，再通过Git命令或Github Desktop推送到Github，所以趁现在就把需要用到的工具安装上吧。
 - **Step 1**：安装[Github Desktop](https://desktop.github.com/)，并通过Github账户登录，将博客仓库下载到本地。
 - **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明。
 - **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库，配置才能生效：`Commit to master` &rarr; `Push origin`。
