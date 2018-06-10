@@ -1,5 +1,5 @@
 ---
-title: 你的博客已上线——基于Jekyll和Github Pages
+title: 博客上线指南——基于Jekyll和Github Pages
 layout: post
 excerpt_separator: <!--more-->
 categories: [Github Pages, Jekyll]
@@ -7,11 +7,9 @@ tags: [Github Pages, Jekyll]
 published: true
 permalink: /start-blogging.html
 ---
-
+![NexT风格博客]({{"/blog_images/start-blogging/blog_preview.png" | absolute_url}})
 
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
-
-
 <!--more-->
 
 ### 挑选模板
