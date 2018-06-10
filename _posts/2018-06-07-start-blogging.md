@@ -9,7 +9,10 @@ permalink: /start-blogging.html
 ---
 
 
-[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
+[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。按照本文所述步骤完成后的大致效果如下图示。
+![博客预览]({{"/blog_images/start-blogging/myblog_preview.png"}})
+
+
 <!--more-->
 
 ### 挑选模板
@@ -17,15 +20,15 @@ permalink: /start-blogging.html
 
 |模板名称|模板预览|
 |:---:|:---:|
-|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([主页](http://theme-next.simpleyyt.com/))|[NexT预览]({{"/blog_images/start-your-blogging/NexT_preview.png" | absolute_url}})|
-|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)([主页](https://tianqi.name/jekyll-TeXt-theme/))|[TeXt预览]({{"/blog_images/start-your-blogging/TeXt_preview.png" | absolute_url}})|
-|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|[Flexible预览]({{"/blog_images/start-your-blogging/Flexible_preview.png" | absolute_url}})|
-|[Github官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-your-blogging/Official_preview.png" | absolute_url}})|
-|[Jekyllthemes.org](http://jekyllthemes.org/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyllthemes_org.png" | absolute_url}})|
-|[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-your-blogging/Jekyll-themes_com.png" | absolute_url}})|
+|[NexT](https://github.com/simpleyyt/jekyll-theme-next)([主页](http://theme-next.simpleyyt.com/))|[NexT预览]({{"/blog_images/start-blogging/NexT_preview.png" | absolute_url}})|
+|[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)([主页](https://tianqi.name/jekyll-TeXt-theme/))|[TeXt预览]({{"/blog_images/start-blogging/TeXt_preview.png" | absolute_url}})|
+|[Flexible](https://github.com/artemsheludko/flexible-jekyll)|[Flexible预览]({{"/blog_images/start-blogging/Flexible_preview.png" | absolute_url}})|
+|[Github官方模板](https://pages.github.com/themes/)|[官方预览]({{"/blog_images/start-blogging/Official_preview.png" | absolute_url}})|
+|[Jekyllthemes.org](http://jekyllthemes.org/)|[网站预览]({{"/blog_images/start-blogging/Jekyllthemes_org.png" | absolute_url}})|
+|[Jekyll-themes.com](https://jekyll-themes.com/)|[网站预览]({{"/blog_images/start-blogging/Jekyll-themes_com.png" | absolute_url}})|
 
 下面以NexT模板为例搭建博客。
-- **Step 1**: 注册[Github](https://github.com/)账号，Github用户名记为`userid`。
+- **Step 1**：注册[Github](https://github.com/)账号，Github用户名记为`userid`。
 - **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
 - **Step 3**：你的博客已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
 
@@ -107,5 +110,5 @@ premalink: /start-blogging.html
 #### 引用文章
 假设需要从一篇文章`/article1.md`中链接到另一篇文章`/article2.md`，首先在`/article2.md`的`YML`头信息中设置永久链接：`premalink: /article2.html`，那么可通过以下命令实现引用：
 ```
-[我的简历]({{"/article2.html" | cmd_str}})  # 其中 cmd_str = absolute_url
+[我的简介]({{"/article2.html" | cmd_str}})  # 其中 cmd_str = absolute_url
 ```
