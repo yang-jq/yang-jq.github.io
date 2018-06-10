@@ -31,7 +31,10 @@ permalink: /start-blogging.html
 ### 定制版面
 你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
 - **Step 1**：安装[Github Desktop](https://desktop.github.com/)，并通过Github账户登录，将博客仓库下载到本地。
-- **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明：
+- **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明。
+- **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库，配置才能生效：`Commit to master` &rarr; `Push origin`。
+
+此处列举了一些常用配置项：
 
 |常用配置项|功能说明|可选值|示例|
 |:---:|:---:|:---:|:---:|
@@ -53,9 +56,6 @@ permalink: /start-blogging.html
 |`custom_logo`|logo图案|`true`/`false`|`enable: true`，`image: /logo.png`|
 |`mathjax`|数学公式|`true`/`false`|`enable: true`|
 |`version`|版本，在文档最后一行|字符串|NexT的版本号|
-
-- **Step 3**：修改`_config.yml`配置文件后，在Github Desktop上把修改推送到博客仓库，配置才能生效：`Commit to master` &rarr; `Push origin`。
-
 
 ### 开始创作
 定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`文章自动转换成`.html`格式进行发布。为了撰写`.md`文章时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
