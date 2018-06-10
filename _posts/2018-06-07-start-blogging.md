@@ -7,11 +7,9 @@ tags: [Github Pages, Jekyll]
 published: true
 permalink: /start-blogging.html
 ---
-![]({{"/blog_images/start-blogging/blog_example.png" | absolute_url}})
-
-<!--more-->
 
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
+<!--more-->
 
 ### 挑选模板
 从零开始亲手创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
