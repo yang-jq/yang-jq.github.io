@@ -9,8 +9,7 @@ permalink: /start-blogging.html
 ---
 
 
-[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。按照本文所述步骤完成后的大致效果如下图示。
-![博客预览]({{"/blog_images/start-blogging/myblog_preview.png"}})
+[Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。既有生成工具，又有托管服务，两者结合就可以便捷地创建个人博客或项目主页。
 
 
 <!--more-->
@@ -30,10 +29,10 @@ permalink: /start-blogging.html
 下面以NexT模板为例搭建博客。
 - **Step 1**：注册[Github](https://github.com/)账号，Github用户名记为`userid`。
 - **Step 2**：将NexT模板仓库(Repository)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
-- **Step 3**：你的博客已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[此处是本人博客]](https://yang-jq.github.io/)。
+- **Step 3**：你的博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[本人博博客]](https://yang-jq.github.io/)。
 
 ### 定制版面
-你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的博客写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
+你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成撰写后，再通过Git命令或Github Desktop推送到Github，所以还是趁现在把需要用到的工具安装上吧。
 - **Step 1**：安装[Github Desktop](https://desktop.github.com/)，并通过Github账户登录，将博客仓库下载到本地。
 - **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明：
 
@@ -62,14 +61,15 @@ permalink: /start-blogging.html
 
 
 ### 开始创作
-定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`博文自动转换成`.html`格式进行发布。Markdown是轻量化的标记语言，为了撰写时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
+定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`文章自动转换成`.html`格式进行发布。为了撰写`.md`文章时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
 
 - **Step 1**：安装[Atom](https://atom.io/)编辑器，关闭Markdown-preview插件(无法显示数学公式)后，安装Markdown-preview-plus增强插件：
   - `File` &rarr; `Settings` &rarr; `Packages` &rarr; `markdown-preview` &rarr; `Disable`；
   - `File` &rarr; `Settings` &rarr; `Install` &rarr; `markdown-preview-plus`。
 - **Step 2**：在博客仓库的`_posts`下新建`year-month-day-title.md`文档，在`.md`文档中写入内容，然后通过Github Desktop推送到线上的博客仓库，即完成博文的发布。
 
-需要说明的是，Jekyll会将每个`.md`文档开头两行`---`之间的信息看作是`YML`头信息，然后根据头信息中的选项进行相应处理，常用的选项有：
+需要说明的是，[Jekyll](https://www.jekyll.com.cn/)会将每个`.md`文档开头两行`---`之间的信息看作是`YML`头信息，然后根据头信息中的选项进行相应处理，常用的选项如下：
+
 |选项|作用|示例|
 |:---:|:---:|:---:|
 |`title`|博文标题|`title: 第一篇博客`|
