@@ -1,6 +1,6 @@
 ---
 title: 测试Font Awesome字体
-published: falsed
+published: false
 ---
 
 Font Awesome图标
