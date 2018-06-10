@@ -7,4 +7,6 @@ Font Awesome图标
 
 site title: {{site.title}}
 
-Github: {{site.social_icons.Github}}
+Github link: {{site.social.GitHub}}
+
+Github icon: {{site.social_icons.GitHub}}
