@@ -9,4 +9,6 @@ site title: {{site.title}}
 
 Github link: {{site.social.GitHub}}
 
-Github icon: {{site.social_icons.GitHub}}
+Github icon: {{site.social_icons[GitHub]}}
+
+Github icon: <i class="fa fa-fw fa-{{ site.social_icons[GitHub] | default: 'globe' | downcase }}"></i>
