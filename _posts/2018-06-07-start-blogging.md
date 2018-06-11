@@ -215,9 +215,8 @@ updated: 2018-06-11
 </span>
 ```
 
-### Emoji表情
+### Emoji表情 :smile:
 :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
-<img :smile: width="100"/>
 ```
 :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
 ```
