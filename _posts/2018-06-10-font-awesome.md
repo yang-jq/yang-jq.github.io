@@ -14,14 +14,14 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 
 <i class="fa fa-home fa-fw"><br>
 <i class="fa fa-book fa-fw"><br>
-<i class="fa fa-pencial fa-fw"><br>
+<i class="fa fa-pencil fa-fw"><br>
 <i class="fa fa-cog fa-fw">
 
 固定宽度基础上进行缩放
 
 <i class="fa fa-home fa-2x fa-fw"> <br>
 <i class="fa fa-book fa-2x fa-fw"> <br>
-<i class="fa fa-pencial fa-2x fa-fw"> <br>
+<i class="fa fa-pencil fa-2x fa-fw"> <br>
 <i class="fa fa-cog fa-2x fa-fw">
 
 调整图标大小：<i class="fa fa-car" style="font-size:48px;"></i>
