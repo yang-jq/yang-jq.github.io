@@ -240,6 +240,7 @@ post_wordcount:
 <center>
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
 </center>
-<div align=center>
+
+<div align="center">
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
 </div>
