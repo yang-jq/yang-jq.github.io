@@ -114,6 +114,7 @@ premalink: /start-blogging.html
 [Font Awesome](http://fontawesome.dashgame.com/)提供了将近700个高质量的矢量图标和公司商标。可通过以下代码段向文章中插入图标或商标。需要提醒的是，商标涉及专利或版权，使用需慎重。
 
 - 默认样式
+
 <i class="fa fa-github"></i>
 ```
 <i class="fa fa-github"></i>
