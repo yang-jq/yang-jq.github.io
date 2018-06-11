@@ -128,7 +128,7 @@ premalink: /start-blogging.html
 ```
 <i class="fa fa-github" style="color:red;"></i>
 ```
-颜色值可以自行配色，比如`color:#8A2BE2`(<span style="color:#8A2BE2">紫</span>)。被命名的有16中颜色，为：<span style="color: aqua">aqua</span>, <span style="color: black">black</span>, <span style="color: blue">blue</span>,
+颜色值可以指定为RGB值，比如`color:#8A2BE2`(<span style="color:#8A2BE2">紫</span>)。16种预定义的颜色名称为：<span style="color: aqua">aqua</span>， <span style="color: black">black</span>， <span style="color: blue">blue</span>，<span style="color: fuchsia">fuchsia</span>，<span style="color: gray">gray</span>，<span style="color: green">green</span>，<span style="color: lime">lime</span>，<span style="color: maroon">maroon</span>，<span style="color: navy">navy</span>，<span style="color: olive">olive</span>，<span style="color: purple">purple</span>，<span style="color: red">red</span>，<span style="color: silver">silver</span>，<span style="color: teal">teal</span>，<span style="color: white; background:black">white</span>，<span style="color: yellow">yellow</span>。
 
 
 
