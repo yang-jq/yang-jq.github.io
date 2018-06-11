@@ -148,7 +148,7 @@ updated: 2018-06-11
 ```
 
 - 固定宽度
-使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时对齐。
+<br>使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时对齐。
 <br><i class="fa fa-home fa-fw"></i>
 <br><i class="fa fa-book fa-fw"></i>
 <br><i class="fa fa-pencil fa-fw"></i>
@@ -163,7 +163,7 @@ updated: 2018-06-11
 
 
 - 图标旋转动画
-使用`fa-spin`可以使任意图标旋转，使用`fa-pulse`则进行8方位旋转：
+<br>使用`fa-spin`可以使任意图标旋转，使用`fa-pulse`则进行8方位旋转：
 <br><i class="fa fa-circle-o-notch fa-spin"></i>
 <i class="fa fa-refresh fa-spin"></i>
 <i class="fa fa-cog fa-spin"></i>
@@ -176,7 +176,7 @@ updated: 2018-06-11
 ```
 
 - 旋转及翻转图标
-使用`fa-rotate-*`和`fa-flip-*`可以对图标进行任意旋转和翻转：
+<br>使用`fa-rotate-*`和`fa-flip-*`可以对图标进行任意旋转和翻转：
 <br><i class="fa fa-shield"></i>：原始样式
 <br><i class="fa fa-shield fa-rotate-90"></i>：旋转90度
 <br><i class="fa fa-shield fa-rotate-180"></i>：旋转180度
@@ -193,7 +193,7 @@ updated: 2018-06-11
 ```
 
 - 组合图标
-使用`fa-stack`作为父容器将多个图标组合后使用：
+<br>使用`fa-stack`作为父容器将多个图标组合后使用：
 <br><i class="fa fa-square-o fa-1x"></i> +
 <i class="fa fa-twitter fa-1x"></i> =
 <span class="fa-stack fa-lg">
