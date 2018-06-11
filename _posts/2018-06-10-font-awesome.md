@@ -19,10 +19,13 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 
 固定宽度基础上进行缩放
 
-<i class="fa fa-home fa-2x fa-fw"> <br>
-<i class="fa fa-book fa-2x fa-fw"> <br>
-<i class="fa fa-pencil fa-2x fa-fw"> <br>
-<i class="fa fa-cog fa-2x fa-fw">
+<span class="fa-lg">
+  <i class="fa fa-home fa-2x fa-fw"> <br>
+  <i class="fa fa-book fa-2x fa-fw"> <br>
+  <i class="fa fa-pencil fa-2x fa-fw"> <br>
+  <i class="fa fa-cog fa-2x fa-fw">
+</span>
+
 
 调整图标大小：<i class="fa fa-car" style="font-size:48px;"></i>
 
