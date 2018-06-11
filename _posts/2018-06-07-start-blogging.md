@@ -80,7 +80,11 @@ updated: 2018-06-11
 |`comments`|开启或关闭评论功能|`comments: false`|
 |`updated`|更新时间|`updated: 2018-06-10`|
 
-目前，`updated`字段还不支持自动更新，需要手动修改日期，同时在`_config.yml`配置文件中设置：`post_meta: updated_at: true`。
+目前，`updated`字段还不支持自动更新，需要手动修改日期，同时在`_config.yml`配置文件中设置：
+```
+post_meta:
+  updated_at: true
+```
 
 
 例如，在本地博客仓库的`_posts`文件夹内新建一个`2018-06-07-start-blogging.md`的文件，然后写入以下内容并通过Github Desktop推送到Github，即可发布一篇标题为“开始你的博客之旅”的文章。
@@ -141,6 +145,21 @@ premalink: /start-blogging.html
 <i class="fa fa-github fa-lg"></i> # large尺寸
 <i class="fa fa-github fa-2x"></i>  # 2x尺寸
 ```
+
+- 固定宽度
+使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时对齐。
+<br><i class="fa fa-home fa-fw"></i>
+<br><i class="fa fa-book fa-fw"</i>
+<br><i class="fa fa-pencil fa-fw"></i>
+<br><i class="fa fa-cog fa-fw"></i>
+```
+<i class="fa fa-home fa-fw"></i>
+<i class="fa fa-book fa-fw"</i>
+<i class="fa fa-pencil fa-fw"></i>
+<i class="fa fa-cog fa-fw"></i>
+```
+
+
 
 - 图标旋转动画
 使用`fa-spin`可以使任意图标旋转，使用`fa-pulse`则进行8方位旋转：
