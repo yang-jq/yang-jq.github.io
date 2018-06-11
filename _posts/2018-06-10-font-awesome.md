@@ -10,11 +10,32 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 
 默认图标大小：<i class="fa fa-car"></i>
 
+固定宽度
+
+<i class="fa fa-home fa-fw"> <br>
+<i class="fa fa-book fa-fw"> <br>
+<i class="fa fa-pencial fa-fw"> <br>
+<i class="fa fa-cog fa-fw">
+
+固定宽度基础上进行缩放
+
+<i class="fa fa-home fa-fw fa-2x"> <br>
+<i class="fa fa-book fa-fw fa-2x"> <br>
+<i class="fa fa-pencial fa-fw fa-2x"> <br>
+<i class="fa fa-cog fa-fw" fa-2x>
+
 调整图标大小：<i class="fa fa-car" style="font-size:48px;"></i>
 
 调整图标颜色：<i class="fa fa-car" style="font-size:60px;color:red;"></i>
 
 按比例放大图标：<i class="fa fa-car fa-lg"></i> <i class="fa fa-car fa-2x"></i>
+
+列表图标：
+<i class="fa-li fa fa-check-square"></i>
+<i class="fa-li fa fa-check-square"></i>
+<i class="fa-li fa fa-spinner fa-spin"></i>
+<i class="fa-li fa fa-square"></i>
+
 
 图标旋转动画：
 
