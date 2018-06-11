@@ -216,7 +216,7 @@ updated: 2018-06-11
 ```
 
 ### Emoji表情
-<br> :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
+:smile: :flushed: :joy: :triumph: :white_flower: :sunny:
 ```
 :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
 ```
