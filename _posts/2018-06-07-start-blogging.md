@@ -222,11 +222,11 @@ post_wordcount:
   separated_meta: false
 ```
 
-### 参考文献
+## 参考文献
 1. Jekyll主页：[https://jekyllrb.com/](https://jekyllrb.com/)，[中文主页](https://www.jekyll.com.cn/)。
 2. Github Pages：[https://pages.github.com/](https://pages.github.com/)。
 3. NexT模板仓库：[https://github.com/Simpleyyt/jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next)。
 4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
 5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
-![]({{"/cv/thumbs_up.jpg" | absolute_url}})
+![]({{"/cv/thumbs_up.JPG" | absolute_url}})
