@@ -233,4 +233,4 @@ post_wordcount:
 
 ![]({{"/cv/thumbs_up.JPG" | absolute_url}})
 
-<img src={{"/cv/thumbs_up.JPG" | absolute_url}}/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" />
