@@ -6,7 +6,7 @@ categories: [Github Pages, Jekyll]
 tags: [Github Pages, Jekyll]
 published: true
 permalink: /start-blogging.html
-updated: 2018-06-10
+updated: 2018-06-11
 ---
 
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。生成工具与托管服务两者的结合就可以便捷地创建个人博客或项目主页。
@@ -78,6 +78,10 @@ updated: 2018-06-10
 |`published`|是否发布|`published: true`|
 |`premalink`|永久链接，用于从别的页面对当前页面进行引用|`premalink: /start-blogging.html`|
 |`comments`|开启或关闭评论功能|`comments: false`|
+|`updated`|更新时间|`updated: 2018-06-10`|
+
+目前，`updated`字段还不支持自动更新，需要手动修改日期，同时在`_config.yml`配置文件中设置：`post_meta: updated_at: true`。
+
 
 例如，在本地博客仓库的`_posts`文件夹内新建一个`2018-06-07-start-blogging.md`的文件，然后写入以下内容并通过Github Desktop推送到Github，即可发布一篇标题为“开始你的博客之旅”的文章。
 ```
@@ -181,4 +185,12 @@ premalink: /start-blogging.html
   <i class="fa fa-square-o fa-stack-2x"></i>
   <i class="fa fa-twitter fa-stack-1x"></i>
 </span>
+```
+
+#### 字数统计
+在`_config.yml`文件中设置：
+```
+post_wordcount:
+  wordcount: true
+  separated_meta: false
 ```
