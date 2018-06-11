@@ -6,12 +6,12 @@ updated: 2018-06-11
 
 Font Awesome图标
 
-site title: {{site.title}}
+Github图标: <i class="fa fa-fw fa-github"></i>
 
-Github link: {{site.social.GitHub}}
+默认图标大小：<i class="fa fa-car"></i>
 
-Github icon: {{site.social_icons[GitHub]}}
+调整图标大小：<i class="fa fa-car" style="font-size:48px;"></i>
 
-Github icon: <i class="fa fa-fw fa-{{ site.social_icons.GitHub | default: 'globe' | downcase }}"></i>
+调整图标颜色：<i class="fa fa-car" style="font-size:60px;color:red;"></i>
 
-Github icon2: <i class="fa fa-fw fa-github"></i>
+按比例放大图标：<i class="fa fa-car fa-lg"></i> <i class="fa fa-car fa-2x"></i>

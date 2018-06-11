@@ -6,6 +6,7 @@ categories: [Github Pages, Jekyll]
 tags: [Github Pages, Jekyll]
 published: true
 permalink: /start-blogging.html
+updated: 2018-06-10
 ---
 
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。生成工具与托管服务两者的结合就可以便捷地创建个人博客或项目主页。
