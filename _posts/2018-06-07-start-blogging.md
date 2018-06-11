@@ -231,4 +231,6 @@ post_wordcount:
 4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
 5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
+<div align=center>
 ![]({{"/cv/thumbs_up.JPG" | absolute_url}})
+</div>
