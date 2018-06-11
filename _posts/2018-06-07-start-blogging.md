@@ -130,27 +130,68 @@ premalink: /start-blogging.html
 ```
 颜色值可以指定为RGB值，比如`color:#8A2BE2`(<span style="color:#8A2BE2">紫</span>)。16种预定义的颜色名称为：<span style="color: aqua">aqua</span>， <span style="color: black">black</span>， <span style="color: blue">blue</span>，<span style="color: fuchsia">fuchsia</span>，<span style="color: gray">gray</span>，<span style="color: green">green</span>，<span style="color: lime">lime</span>，<span style="color: maroon">maroon</span>，<span style="color: navy">navy</span>，<span style="color: olive">olive</span>，<span style="color: purple">purple</span>，<span style="color: red">red</span>，<span style="color: silver">silver</span>，<span style="color: teal">teal</span>，<span style="color: white; background:black">white</span>，<span style="color: yellow">yellow</span>。
 
-
-
-
-
-|功能|效果|代码|
-|:---:|:---:|:---:|
-|原始图标|<i class="fa fa-github"></i>|`<i class="fa fa-github"></i>`，`github`为图标名|
-|图标大小|<i class="fa fa-github" style="font-size:24px;"></i>|`<i class="fa fa-github" style="font-size:24px;"></i>`|
-|图标颜色|<i class="fa fa-github" style="color:red;"></i>|`<i class="fa fa-github" style="color:red;"></i>`|
-|按比例缩放|<i class="fa fa-github"></i> <i class="fa fa-github fa-lg"></i> <i class="fa fa-github fa-2x"></i>|后附代码|
-
--
-
-
+- 按比例缩放图标
+<br><i class="fa fa-github"></i> <i class="fa fa-github fa-lg"></i> <i class="fa fa-github fa-2x"></i>
 ```
-<i class="fa fa-github"></i>  # 默认github图标, 格式为 fa-iconname
+<i class="fa fa-github"></i>  # 原始大小
+<i class="fa fa-github fa-lg"></i> # large尺寸
+<i class="fa fa-github fa-2x"></i>  # 2x尺寸
+```
 
-<i class="fa fa-github" style="font-size:24px;"></i>  # 指定图标尺寸
+- 列表图标(可替换原生图标)
+使用`fa-ul`和`fa-li`可以将无序列表的默认符号替换掉，见[[官网-用于列表]](http://fontawesome.dashgame.com/)：
+<br><i class="fa-li fa fa-check-square"></i>
+<br><i class="fa-li fa fa-check-square"></i>
+<br><i class="fa-li fa fa-spinner fa-spin"></i>
+<br><i class="fa-li fa fa-square"></i>
+```
+<i class="fa-li fa fa-check-square"></i>
+<i class="fa-li fa fa-check-square"></i>
+<i class="fa-li fa fa-spinner fa-spin"></i>
+<i class="fa-li fa fa-square"></i>
+```
 
-<i class="fa fa-github" style="font-size:24px; color:red;"></i>  # 指定图标尺寸和颜色
+- 图标旋转动画
+使用`fa-spin`可以使任意图标旋转，使用`fa-pulse`则进行8方位旋转：
+<br><i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-spinner fa-pulse"></i>
+```
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-spinner fa-pulse"></i>
+```
 
-<i class="fa fa-github fa-lg"></i> # 按比例缩放图标
-<i class="fa fa-github fa-2x"></i>  
+- 旋转及翻转图标
+使用`fa-rotate-*`和`fa-flip-*`可以对图标进行任意旋转和翻转：
+<br><i class="fa fa-shield"></i>：原始样式
+<br><i class="fa fa-shield fa-rotate-90"></i>：旋转90度
+<br><i class="fa fa-shield fa-rotate-180"></i>：旋转180度
+<br><i class="fa fa-shield fa-rotate-45"></i>：旋转45度
+<br><i class="fa fa-shield fa-flip-horizontal"></i>：水平翻转
+<br><i class="fa fa-shield fa-flip-vertical"></i>：垂直翻转
+```
+<i class="fa fa-shield"></i>：原始样式
+<i class="fa fa-shield fa-rotate-90"></i>：旋转90度
+<i class="fa fa-shield fa-rotate-180"></i>：旋转180度
+<i class="fa fa-shield fa-rotate-45"></i>：旋转45度
+<i class="fa fa-shield fa-flip-horizontal"></i>：水平翻转
+<i class="fa fa-shield fa-flip-vertical"></i>：垂直翻转
+```
+
+- 组合图标
+使用`fa-stack`作为父容器将多个图标组合后使用：
+<br><i class="fa fa-square-o fa-1x"></i> +
+<i class="fa fa-twitter fa-1x"></i> =
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
+```
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
 ```

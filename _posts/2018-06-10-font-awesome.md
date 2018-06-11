@@ -1,6 +1,6 @@
 ---
 title: 测试Font Awesome字体
-published: true
+published: false
 updated: 2018-06-11
 ---
 
@@ -18,10 +18,10 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 
 固定宽度
 
-<i class="fa fa-home fa-fw"><br>
-<i class="fa fa-book fa-fw"><br>
-<i class="fa fa-pencil fa-fw"><br>
-<i class="fa fa-cog fa-fw">
+<i class="fa fa-home fa-fw"></i><br>
+<i class="fa fa-book fa-fw"</i><br>
+<i class="fa fa-pencil fa-fw"></i><br>
+<i class="fa fa-cog fa-fw"></i>
 
 固定宽度基础上进行缩放
 
