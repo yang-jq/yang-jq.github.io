@@ -33,6 +33,9 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 <i class="fa fa-shield fa-flip-vertical"></i> icon-flip-vertical
 
 图标的组合使用
-
-<i class="fa fa-square-o fa-stack-2x"></i>
-<i class="fa fa-twitter fa-stack-1x"></i>
+<i class="fa fa-square-o fa-2x"></i> +
+<i class="fa fa-twitter fa-1x"></i> =
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
