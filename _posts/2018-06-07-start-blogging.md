@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 categories: [Github Pages, Jekyll]
 tags: [Github Pages, Jekyll]
-published: true
+published: false
 permalink: /start-blogging.html
 updated: 2018-06-11
 ---
@@ -148,7 +148,7 @@ updated: 2018-06-11
 ```
 
 - 固定宽度
-<br>使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时对齐。
+<br>使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时实现对齐。
 <br><i class="fa fa-home fa-fw"></i>
 <br><i class="fa fa-book fa-fw"></i>
 <br><i class="fa fa-pencil fa-fw"></i>
@@ -207,6 +207,13 @@ updated: 2018-06-11
 </span>
 ```
 
+### Emoji表情
+<br> :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
+```
+:smile: :flushed: :joy: :triumph: :white_flower: :sunny:
+```
+更多的Emoji表情代码请参考[Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
 ### 字数统计
 在`_config.yml`配置文件中设置：
 ```
@@ -216,3 +223,8 @@ post_wordcount:
 ```
 
 ### 参考文献
+1. Jekyll主页：[https://jekyllrb.com/](https://jekyllrb.com/)，[中文主页](https://www.jekyll.com.cn/)。
+2. Github Pages：[https://pages.github.com/](https://pages.github.com/)。
+3. NexT模板仓库：[https://github.com/Simpleyyt/jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next)。
+4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
+5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
