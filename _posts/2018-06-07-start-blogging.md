@@ -109,3 +109,22 @@ premalink: /start-blogging.html
 ```
 [我的简介]({~{"/article2.html" | absolute_url}~})  # 把"~"号去掉
 ```
+
+#### 插入图标
+[Font Awesome](http://fontawesome.dashgame.com/)提供了将近700个高质量的矢量图标和公司商标。可通过以下代码段向文章中插入图标或商标。需要提醒的是，商标涉及专利或版权，使用需慎重。
+
+|功能|效果|代码|
+|:---:|:---:|:---:|
+|原始图标|<i class="fa fa-github"></i>|`<i class="fa fa-github"></i>`|
+
+
+```
+<i class="fa fa-github"></i>  # 默认github图标, 格式为 fa-iconname
+
+<i class="fa fa-github" style="font-size:24px;"></i>  # 指定图标尺寸
+
+<i class="fa fa-github" style="font-size:24px; color:red;"></i>  # 指定图标尺寸和颜色
+
+<i class="fa fa-github fa-lg"></i> # 按比例缩放图标
+<i class="fa fa-github fa-2x"></i>  
+```
