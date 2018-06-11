@@ -207,7 +207,7 @@ premalink: /start-blogging.html
 ```
 
 #### 字数统计
-在`_config.yml`文件中设置：
+在`_config.yml`配置文件中设置：
 ```
 post_wordcount:
   wordcount: true
