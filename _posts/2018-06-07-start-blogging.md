@@ -109,6 +109,12 @@ updated: 2018-06-11
 ```
 需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别；此外，图片文件名和后缀是**大小写敏感**的。
 
+如果需要调整图像尺寸或对齐方式，采用以下代码：
+```
+<img src="{{"/images/pic1.png" | absolute_url}}" width="25%" alt="图1" div align="center" />  
+# 注意，src最外层的""不能省略，width和align的参数需要加双引号，比如 width="100", 意为100 pixels
+```
+
 ### 插入附件
 假设需要向文章中插入`.pdf`文件，可用跟插入图片类似的方法：
 ```
@@ -234,6 +240,4 @@ post_wordcount:
 ![]({{"/cv/thumbs_up.JPG" | absolute_url}})
 
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="100" alt="100px大小"/>
-
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小" div align="right"/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}", width="100", alt="100px大小"/>
