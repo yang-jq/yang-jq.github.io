@@ -138,19 +138,6 @@ premalink: /start-blogging.html
 <i class="fa fa-github fa-2x"></i>  # 2x尺寸
 ```
 
-- 列表图标(可替换原生图标)
-使用`fa-ul`和`fa-li`可以将无序列表的默认符号替换掉，见[[官网-用于列表]](http://fontawesome.dashgame.com/)：
-<br><i class="fa-li fa fa-check-square"></i>
-<br><i class="fa-li fa fa-check-square"></i>
-<br><i class="fa-li fa fa-spinner fa-spin"></i>
-<br><i class="fa-li fa fa-square"></i>
-```
-<i class="fa-li fa fa-check-square"></i>
-<i class="fa-li fa fa-check-square"></i>
-<i class="fa-li fa fa-spinner fa-spin"></i>
-<i class="fa-li fa fa-square"></i>
-```
-
 - 图标旋转动画
 使用`fa-spin`可以使任意图标旋转，使用`fa-pulse`则进行8方位旋转：
 <br><i class="fa fa-circle-o-notch fa-spin"></i>
