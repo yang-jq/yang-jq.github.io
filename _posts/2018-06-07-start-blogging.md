@@ -12,7 +12,7 @@ updated: 2018-06-11
 [Jekyll](https://jekyllrb.com/)([中文主页](https://www.jekyll.com.cn/))是将Markdown等轻量化标记语言编写的文本转换为静态网页的工具，而[Github Pages](https://pages.github.com/)是Github提供的静态网页托管服务。生成工具与托管服务两者的结合就可以便捷地创建个人博客或项目主页。
 <!--more-->
 
-### 挑选模板
+## 挑选模板
 从零开始亲自创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
 
 |模板名称|模板预览|
@@ -29,7 +29,7 @@ updated: 2018-06-11
 - **Step 2**：将[NexT模板仓库](https://github.com/simpleyyt/jekyll-theme-next)Fork到你的Github空间，将刚Fork到的NexT仓库更名为：`userid.github.io` (操作流程：`NexT仓库页面` &rarr; `Settings` &rarr; `Rename`)
 - **Step 3**：你的博客现已成功上线。在浏览器地址栏输入`https://userid.github.io`尝试访问吧。[[本人博客]](https://yang-jq.github.io/)。
 
-### 定制版面
+## 定制版面
 你可能需要调整博客版面以符合你的审美。调整版面需要修改`_config.yml`文件，可以直接在博客仓库里在线修改。但在以后的写作中，通常是在本地完成文稿后，再通过Git命令或Github Desktop推送到Github，所以趁现在就把需要用到的工具安装上吧。
 - **Step 1**：安装[Github Desktop](https://desktop.github.com/)，并通过Github账户登录，将博客仓库下载到本地。
 - **Step 2**：使用文本编辑器修改`_config.yml`全局配置文件，关于NexT主题的配置项可参考[NexT主页](http://theme-next.simpleyyt.com/)的说明。
@@ -58,7 +58,7 @@ updated: 2018-06-11
 |`mathjax`|数学公式|`true`/`false`|`enable: true`|
 |`version`|版本，在文档最后一行|字符串|NexT的版本号|
 
-### 开始创作
+## 开始创作
 定制好版面后，就可以开始创作了。Jekyll支持使用[Markdown](http://www.markdown.cn/)语言来撰写博文，它会将每一篇`.md`文章自动转换成`.html`格式进行发布。为了撰写`.md`文章时能够实时显示排版效果，此处推荐Github开发的[Atom](https://atom.io/)编辑器。
 
 - **Step 1**：安装[Atom](https://atom.io/)编辑器，关闭Markdown-preview插件(因其无法显示数学公式)后，安装Markdown-preview-plus增强插件：
@@ -101,25 +101,25 @@ updated: 2018-06-11
 正文从此处开始...首篇博文...
 ```
 
-### 常用功能(陆续更新...)
-#### 插入图片
+## 常用功能(陆续更新...)
+### 插入图片
 假设图片的路径在`本地博客仓库/images/pic1.png`，用以下命令可将图片插入到文章中：
 ```
 ![图1]({~{"/images/pic1.png" | absolute_url}~})  # 把"~"号去掉
 ```
 需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别。
-#### 插入附件
+### 插入附件
 假设需要向文章中插入`.pdf`文件，可用跟插入图片类似的方法：
 ```
 [点此下载]({~{"/pdfs/paper.pdf" | absolute_url}~})  # 把"~"号去掉
 ```
-#### 引用文章
+### 引用文章
 假设需要从一篇文章`/article1.md`中链接到另一篇文章`/article2.md`，首先在`/article2.md`的`YML`头信息中设置永久链接：`premalink: /article2.html`，那么可通过以下命令实现引用：
 ```
 [我的简介]({~{"/article2.html" | absolute_url}~})  # 把"~"号去掉
 ```
 
-#### 插入图标
+### 插入图标
 [Font Awesome](http://fontawesome.dashgame.com/)提供了将近700个高质量的矢量图标和公司商标。可通过以下代码段向文章中插入图标或商标。需要提醒的是，商标涉及专利或版权，使用需慎重。
 
 - 默认样式
@@ -207,7 +207,7 @@ updated: 2018-06-11
 </span>
 ```
 
-#### 字数统计
+### 字数统计
 在`_config.yml`配置文件中设置：
 ```
 post_wordcount:
