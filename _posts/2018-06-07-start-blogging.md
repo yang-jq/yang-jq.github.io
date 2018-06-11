@@ -112,7 +112,7 @@ updated: 2018-06-11
 如果需要调整图像尺寸或对齐方式，采用以下代码：
 ```
 <img src="{{"/images/pic1.png" | absolute_url}}" width="25%" alt="图1" div align="center" />  
-# 注意，src最外层的""不能省略，width和align的参数需要加双引号，比如 width="100", 意为100 pixels
+# 注意，src最外层的""不能省略；参数之间用空格隔开；width和align的参数需要加双引号，比如 width="100", 意为100 pixels。
 ```
 
 ### 插入附件
@@ -237,7 +237,4 @@ post_wordcount:
 4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
 5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
-![]({{"/cv/thumbs_up.JPG" | absolute_url}})
-
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}"; width="100"; alt="100px大小"/>
+<img src="{{"/cv/thumbs_up.jpg" | absolute_url}}" width="33%" alt=""/>
