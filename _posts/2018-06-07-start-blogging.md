@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 categories: [Github Pages, Jekyll]
 tags: [Github Pages, Jekyll]
-published: false
+published: true
 permalink: /start-blogging.html
 updated: 2018-06-11
 ---
@@ -228,3 +228,5 @@ post_wordcount:
 3. NexT模板仓库：[https://github.com/Simpleyyt/jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next)。
 4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
 5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
+
+![]({{"cv/thumbs_up.jpg" | absolute_url}})
