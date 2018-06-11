@@ -113,9 +113,25 @@ premalink: /start-blogging.html
 #### 插入图标
 [Font Awesome](http://fontawesome.dashgame.com/)提供了将近700个高质量的矢量图标和公司商标。可通过以下代码段向文章中插入图标或商标。需要提醒的是，商标涉及专利或版权，使用需慎重。
 
+- 默认样式
+<i class="fa fa-github"></i>
+```
+<i class="fa fa-github"></i>
+```
+
+
+
+
+
+
 |功能|效果|代码|
 |:---:|:---:|:---:|
-|原始图标|<i class="fa fa-github"></i>|`<i class="fa fa-github"></i>`|
+|原始图标|<i class="fa fa-github"></i>|`<i class="fa fa-github"></i>`，`github`为图标名|
+|图标大小|<i class="fa fa-github" style="font-size:24px;"></i>|`<i class="fa fa-github" style="font-size:24px;"></i>`|
+|图标颜色|<i class="fa fa-github" style="color:red;"></i>|`<i class="fa fa-github" style="color:red;"></i>`|
+|按比例缩放|<i class="fa fa-github"></i> <i class="fa fa-github fa-lg"></i> <i class="fa fa-github fa-2x"></i>|后附代码|
+
+-
 
 
 ```
