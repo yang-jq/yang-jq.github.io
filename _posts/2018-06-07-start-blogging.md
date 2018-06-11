@@ -236,7 +236,7 @@ post_wordcount:
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="100" alt="100px大小"/>
 
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小" div align=right/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小" div align="right"/>
 
 <div align="right">
 <img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
