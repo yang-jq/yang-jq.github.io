@@ -233,6 +233,13 @@ post_wordcount:
 
 ![]({{"/cv/thumbs_up.JPG" | absolute_url}})
 
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" />
-<img src={{"/cv/thumbs_up.JPG" | absolute_url}}/>
-<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}"/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="100" alt="100px大小"/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width=100 alt="100px大小"/>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小" div align=center/>
+<center>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
+</center>
+<div align=center>
+<img src="{{"/cv/thumbs_up.JPG" | absolute_url}}" width="25%" alt="25%大小"/>
+</div>
