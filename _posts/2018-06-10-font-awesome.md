@@ -33,9 +33,19 @@ Github图标: <i class="fa fa-fw fa-github"></i>
 <i class="fa fa-shield fa-flip-vertical"></i> icon-flip-vertical
 
 图标的组合使用
-<i class="fa fa-square-o fa-2x"></i> +
+<i class="fa fa-square-o fa-2x fa-border"></i> +
 <i class="fa fa-twitter fa-1x"></i> =
 <span class="fa-stack fa-lg">
   <i class="fa fa-square-o fa-stack-2x"></i>
   <i class="fa fa-twitter fa-stack-1x"></i>
 </span>
+
+按钮上的图标
+<a class="btn btn-danger" href="#">
+<i class="fa fa-trash-o fa-lg"></i> Delete</a>
+
+边框对齐
+<i class="fa fa-quote-left fa-3x pull-left fa-border"></i>
+...tomorrow we will run faster, stretch out our arms farther...
+And then one fine morning— So we beat on, boats against the
+current, borne back ceaselessly into the past.
