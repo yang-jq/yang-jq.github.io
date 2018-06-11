@@ -216,11 +216,11 @@ updated: 2018-06-11
 ```
 
 ### Emoji表情
-:smile: :flushed: :joy: :triumph: :white_flower: :sunny: <br>
-<font size="10"> :smile: :flushed: :joy: :triumph: :white_flower: :sunny: </font>
+:smile: :flushed: :joy: :triumph: :white_flower: :sunny:
+<font size=20> :smile: :flushed: :joy: :triumph: :white_flower: :sunny: </font>
 ```
 :smile: :flushed: :joy: :triumph: :white_flower: :sunny:
-<font size="10"> :smile: :flushed: :joy: :triumph: :white_flower: :sunny: </font>
+<font size=20> :smile: :flushed: :joy: :triumph: :white_flower: :sunny: </font>
 ```
 更多的Emoji表情代码请参考[Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
