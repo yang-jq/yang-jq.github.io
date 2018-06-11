@@ -128,7 +128,7 @@ premalink: /start-blogging.html
 ```
 <i class="fa fa-github" style="color:red;"></i>
 ```
-颜色值可以自行配色，比如`color:#8A2BE2`(<i style="color:#8A2BE2">紫</i>)。被命名的有16中颜色，为：<i style="color: aqua">aqua</i>, <i style="color: black">black</i>, <i style="color: blue">blue</i>,
+颜色值可以自行配色，比如`color:#8A2BE2`(<span style="color:#8A2BE2">紫</span>)。被命名的有16中颜色，为：<span style="color: aqua">aqua</span>, <span style="color: black">black</span>, <span style="color: blue">blue</span>,
 
 
 
