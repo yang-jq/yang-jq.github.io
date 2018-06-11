@@ -118,7 +118,17 @@ premalink: /start-blogging.html
 ```
 <i class="fa fa-github"></i>
 ```
-
+- 指定图标大小
+<br><i class="fa fa-github" style="font-size:24px;"></i>
+```
+<i class="fa fa-github" style="font-size:24px;"></i>
+```
+- 指定图标颜色
+<br><i class="fa fa-github" style="color:red;"></i>
+```
+<i class="fa fa-github" style="color:red;"></i>
+```
+颜色值可以自行配色，比如`color:#8A2BE2`(<i style="color:#8A2BE2">紫</i>)。被命名的有16中颜色，为：<i style="color: aqua">aqua</i>, <i style="color: black">black</i>, <i style="color: blue">blue</i>,
 
 
 
