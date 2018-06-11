@@ -107,12 +107,14 @@ updated: 2018-06-11
 ```
 ![图1]({~{"/images/pic1.png" | absolute_url}~})  # 把"~"号去掉
 ```
-需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别。
+需要注意的是，目录不能以`_`开头，即不能将图片放在`/_images/pic1.png`内，否则将无法识别；此外，图片文件名和后缀是**大小写敏感**的。
+
 ### 插入附件
 假设需要向文章中插入`.pdf`文件，可用跟插入图片类似的方法：
 ```
 [点此下载]({~{"/pdfs/paper.pdf" | absolute_url}~})  # 把"~"号去掉
 ```
+
 ### 引用文章
 假设需要从一篇文章`/article1.md`中链接到另一篇文章`/article2.md`，首先在`/article2.md`的`YML`头信息中设置永久链接：`premalink: /article2.html`，那么可通过以下命令实现引用：
 ```
@@ -229,4 +231,7 @@ post_wordcount:
 4. Font Awesome主页：[http://fontawesome.dashgame.com/](http://fontawesome.dashgame.com/)。
 5. Emoji表情代码主页：[https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
+<div align=center> <img src={{"/cv/thumbs_up.JPG" | absolute_url}}, width="150", alt=""> </div>
+```
 ![]({{"/cv/thumbs_up.JPG" | absolute_url}})
+```
