@@ -13,7 +13,7 @@ updated: 2018-06-11
 <!--more-->
 
 ### 挑选模板
-从零开始亲手创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
+从零开始亲自创建精致的个人博客当然需要耗费不少精力和时间，但幸好已经有不少优秀的开源博客模板可供直接选用。此处列举了一些：
 
 |模板名称|模板预览|
 |:---:|:---:|
@@ -96,6 +96,7 @@ tags: [Blog, Jekyll]
 published: true
 excerpt_separator: <!--more-->
 premalink: /start-blogging.html
+updated: 2018-06-11
 ---
 正文从此处开始...首篇博文...
 ```
@@ -149,7 +150,7 @@ premalink: /start-blogging.html
 - 固定宽度
 使用`fa-fw`将图标设置为一个固定宽度，主要用于不同宽度图标无法对齐的情况，尤其在列表或导航时对齐。
 <br><i class="fa fa-home fa-fw"></i>
-<br><i class="fa fa-book fa-fw"</i>
+<br><i class="fa fa-book fa-fw"></i>
 <br><i class="fa fa-pencil fa-fw"></i>
 <br><i class="fa fa-cog fa-fw"></i>
 ```
